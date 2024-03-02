@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -266,7 +266,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(U1-VDD3P3_CPU)": "VDD33",
+      "TMS": "VDD33"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -385,10 +388,6 @@
     [
       "78da8bdf-e40e-495b-ba6c-b18ee9000176",
       "Root"
-    ],
-    [
-      "1c4c63ba-b667-49bf-8c13-7d2046cd185f",
-      "Analog"
     ]
   ],
   "text_variables": {}
