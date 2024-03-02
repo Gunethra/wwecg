@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "78da8bdf-e40e-495b-ba6c-b18ee9000176")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Wireless ECG(ESDP 2024)")
 		(rev "0.1.0")
@@ -2314,7 +2314,7 @@
 		(uuid "f21d3c43-685b-46b7-9fad-41eb527355d6")
 	)
 	(bus_entry
-		(at 72.39 66.04)
+		(at 72.39 58.42)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2395,7 +2395,7 @@
 		(uuid "aed4782d-d0e6-47ea-8dcc-b09908762767")
 	)
 	(bus_entry
-		(at 69.85 66.04)
+		(at 69.85 58.42)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2721,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 69.85 59.69)
+			(xy 69.85 58.42) (xy 69.85 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2981,16 +2981,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 52.07) (xy 77.47 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432a95e9-e514-4fef-b222-abd9ff2384d6")
-	)
-	(wire
-		(pts
 			(xy 87.63 64.77) (xy 100.33 64.77)
 		)
 		(stroke
@@ -3131,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 72.39 66.04)
+			(xy 72.39 52.07) (xy 72.39 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3201,7 +3191,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 68.58) (xy 72.39 68.58)
+			(xy 69.85 60.96) (xy 72.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3251,7 +3241,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 59.69) (xy 72.39 59.69)
+			(xy 72.39 52.07) (xy 100.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3378,16 +3368,6 @@
 			(type default)
 		)
 		(uuid "7c0e208f-53f2-420d-9e06-e011d081cf1a")
-	)
-	(wire
-		(pts
-			(xy 100.33 52.07) (xy 77.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce30009-db3d-4ff1-8abd-c7461a7f7170")
 	)
 	(wire
 		(pts
@@ -3611,7 +3591,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 68.58) (xy 77.47 72.39)
+			(xy 77.47 60.96) (xy 77.47 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 69.85 59.69)
+			(xy 64.77 52.07) (xy 69.85 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3901,7 +3881,7 @@
 	)
 	(bus
 		(pts
-			(xy 72.39 68.58) (xy 74.93 68.58)
+			(xy 72.39 60.96) (xy 74.93 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3911,7 +3891,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 68.58) (xy 69.85 72.39)
+			(xy 69.85 60.96) (xy 69.85 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3941,7 +3921,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 68.58) (xy 77.47 68.58)
+			(xy 74.93 60.96) (xy 77.47 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4001,7 +3981,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 72.39) (xy 69.85 72.39)
+			(xy 77.47 64.77) (xy 69.85 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4320,7 +4300,7 @@
 		(uuid "96eaf801-72e9-408c-a685-794dac276b28")
 	)
 	(label "1"
-		(at 72.39 66.04 180)
+		(at 72.39 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4364,7 +4344,7 @@
 		(uuid "d5b04d0a-d2c8-4e74-8641-6543f234ecb2")
 	)
 	(label "2"
-		(at 69.85 66.04 180)
+		(at 69.85 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7211,7 +7191,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 59.69 270)
+		(at 64.77 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7220,7 +7200,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea1f05e7-ec4d-4c7f-ae86-9210a4c84b48")
 		(property "Reference" "#PWR05"
-			(at 58.42 59.69 0)
+			(at 58.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 59.6899 90)
+			(at 60.96 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 59.69 0)
+			(at 64.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 59.69 0)
+			(at 64.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 59.69 0)
+			(at 64.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,6 +7388,44 @@
 				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176"
 					(reference "#PWR013")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 16.51)
+		(size 36.83 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c4c63ba-b667-49bf-8c13-7d2046cd185f")
+		(property "Sheetname" "Analog"
+			(at 19.05 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 19.05 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "alpha"
+				(path "/78da8bdf-e40e-495b-ba6c-b18ee9000176"
+					(page "2")
 				)
 			)
 		)
